@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BBQ Donut Amsterdam</title>
+  <link rel="stylesheet" type="text/css" href="style/custom.css" />
+</head>
+<body>
+  <div id="nl">
+
+    <section>
+      <p>Onze BBQ Donut boot is al beschikbaar vanaf <span>€45,- per uur</span> exclusief arrangementen, tussen
+ de tijden 9:00 en 21:00 voor een max aantal van 6 personen.</p>
+
+      <hr />
+
+      <p>Naast de BBQ Donut Boot bieden wij ook verschillende arrangementen aan.
+      Hieronder vind u drie voorbeelden van onze vers bereide arrangementen!</p>
+
+      <p class="section-flipped">Als u er voor kiest om door ons de catering te laten verzorgen, betaald u ipv <span>€45,-</span> per uur slechts <span>€35,-</span> per uur!</p>
+
+      <hr />
+
+      <p>Bij vragen of reserveren twijfel niet en stuur ons een bericht via 
+      WhatsApp of bel ons!</p>
+
+      <p><span class="icon"><img src="img/icon_letter.png" /></span>info@waterbbq.com</p>
+
+      <p><span class="icon"><img src="img/icon_telephone.png" /></span>06 26245857</p>
+
+      <p>U dient uw reservering minimaal 6 uur van te voren aan ons door te geven.</p>
+
+      <p>wij wensen u veel vaarplezier!</p>
+
+      <button class="orange"><div>Bekijk al onze top arrangementen</div></button>
+
+      <h1>De BBQ Donut Boot</h1>
+      <p>Onze BBQ Donut Boot is van alle gemakken voorzien.
+      De boot is uitgerust met:
+        <ul>
+          <li>Geluidsinstallatie op Bluetooth</li>
+          <li>Verlichting op en rondom de boot</li>
+          <li>6 koelboxen</li>
+          <li>2 ingangen om uw mobiele apparaten op te laden</li>
+        </ul>
+      </p>
+
+      <p>Op BBQ Donut Boot is er plaats voor 6 personen.
+      Overigens word de boot 100% elektrisch aangedreven en zeer gemakkelijk te besturen.
+      Hiervoor heeft u geen vaarbewijs nodig!</p>
+
+      <h1>Op- afstaplocaties + Parkeerplekken</h1>
+
+      <p>Laat ons bij het reserveren weten waar u wilt beginnen aan u unieke vaartocht. Parkeren is op alle drie de opstaplocaties gratis!</p>
+
+      <div id="map"></div>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var phq = {lat: 52.3434918, lng: 4.79041};
+          var p2 = {lat: 52.3377645, lng: 4.7936004};
+          var p3 = {lat: 52.3260999, lng: 4.8150362};
+
+          
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 13, center: phq});
+          // The marker, positioned at Uluru
+          var m1 = new google.maps.Marker({position: phq, map: map});
+          var m2 = new google.maps.Marker({position: p2, map: map});
+          var m3 = new google.maps.Marker({position: p3, map: map});
+        }
+      </script>
+      <!--Load the API from the specified URL
+      * The async attribute allows the browser to render the page while the API loads
+      * The key parameter will contain your own API key (which is not needed for this tutorial)
+      * The callback parameter executes the initMap() function
+      -->
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBleB_GxO0CXlJY17DHkMxQPeerL_DflLE&callback=initMap">
+      </script>
+
+      <button class="orange"><div>Bezienswaardigheden</div></button>
+    </section>
+
+  </div>
+
+<script type="text/javascript" src="scripts/templates.js"></script>
+</body>
+</html>

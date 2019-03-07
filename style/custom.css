@@ -1,0 +1,288 @@
+body {
+  font-family: avenir;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+a:hover {
+  color: #FF8717;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Google Maps */
+#map {
+  height: 600px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+  margin-bottom: 20px;
+}
+
+/* Reset ul */
+ul {
+  margin: 0;
+}
+
+div.nl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.injected {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Logo */
+
+#logo {
+  position: relative;
+  float: left;
+  left: 50px;
+  top: 50px;
+  margin-right: 200px;
+  background-color: white;
+  color: black;
+  z-index: 100;
+  width: 330px;
+  height: 250px;
+  text-align: center;
+  border: black 1px solid;
+}
+
+#logo > hr {
+  border: black 1px solid;
+}
+
+#logo-top {
+  margin-top: 10px;
+  font-size: 58px;
+}
+
+hr#logo-top2mid {
+  width: 50%;
+}
+
+#logo-mid {
+  margin-top: 10px;
+  font-size: 58px;
+  color: #FF8717;
+}
+
+hr#logo-mid2bottom {
+  border: black 0.5px solid;
+}
+
+#logo-bottom {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+/* Menu */
+
+#menu {
+  position: relative;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+/* Menu Top */
+
+#menu-top {
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 100px;
+  width: 100%;
+}
+
+#menu-top > ul {
+  position: relative;
+  left: 25%;
+}
+
+#menu-top > ul > li {
+  position: relative;
+  top: 30px;
+  display: inline;
+  margin-right: 60px;
+}
+
+#menu-top > ul > li > span {
+  margin-right: 15px;
+}
+
+/* Menu Bottom */
+
+#menu-bottom {
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: white;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 50px;
+  width: 100%;
+}
+
+#menu-bottom > ul {
+  float: right;
+  left: 30%;
+}
+
+#menu-bottom > ul > li {
+  display: inline;
+  margin-right: 100px;
+}
+
+/* Header */
+
+#header-content {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  background-image: url("../img/amsterdam.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: white;
+}
+
+#header-content-left {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 42.5%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+
+  /*Opacity*/
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#header-content-left > div {
+  padding-top: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+section {
+  position: relative;
+  top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section, section > p, section button {
+  font-size: 40px;
+}
+
+section > p > span {
+  color: #FF8717;
+}
+
+section > hr {
+  border: black 1px solid;
+  margin-left: -60px;
+  margin-right: -60px; 
+}
+
+p.section-flipped {
+  color: #FF8717;
+}
+
+p.section-flipped > span {
+  color: black;
+}
+
+section > p > span.icon {
+  margin-right: 10px
+}
+
+.orange {
+  color: #FF8717;
+}
+
+p.no-newline-bottom {
+  margin-bottom: 0px;
+}
+
+p.no-newline-top {
+  margin-top: 0px;
+}
+
+button.orange {
+  color: #FF8717;
+  border: 5px #FF8717 solid;
+}
+
+button.orange > div {
+  margin: 15px;
+}
+
+section > h1 {
+  color: #FF8717;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer > #footer-menu {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 50px;
+}
+
+footer > #footer-icons {
+  position: relative;
+  top: 0;
+  margin: auto;
+}
+
+footer > #footer-icons > img {
+  margin: 0 150px;
+}
