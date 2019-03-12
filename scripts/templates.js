@@ -23,17 +23,9 @@ let header = `<header>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="reserveren.html">Reserveren</a></li>
+            <li><a href="arrangementen.html">Arrangementen</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
-      </div>
-      <div id="header-content">
-        <div id="header-content-left">
-          <div>
-            <p>Welkom!</p>
-            <p>Stap aan boord bij onze BBQ Donut Boot voor een unieke vaartocht in Amsterdam.</p>
-          </div>
-          <!-- To do: Google Review -->
         </div>
       </div>
     </header>`
@@ -42,10 +34,10 @@ let header = `<header>
 let footer = `<footer>
       <div id="footer-menu">
         <ul>
-          <li>Reserveren</li>
-          <li>Bezienswaardigheden</li>
-          <li>Arrangementen</li>
-          <li>Contact</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="reserveren.html">Reserveren</a></li>
+          <li><a href="arrangementen.html">Arrangementen</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
 
